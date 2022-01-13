@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'star';
+    src:url('../MEDIAS/fonte/stjedise/STJEDISE.TTF') format('opentype'), url('../MEDIAS/fonte/starjout/Starjout.ttf') format('truetype');
+}
+
+body{
+margin: 0px 0px 0px 0px;
+    background-image: linear-gradient(to right, rgb(212, 142, 124),rgb(124, 89, 89), rgb(167, 100, 100), rgb(160, 61, 44));
+}
+main{
+    margin:auto;
+    max-width: 800px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(44, 39, 39);
+    display: flexbox;
+
+}
+h1, h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgb(143, 62, 62);
+    border-radius: 5px;
+}
+p{
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    border-radius: 20px;
+}
+p{
+    font-family: 'star' ;
+    text-indent: 40px;
+}
+footer > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    width: 50px;
+    font-weight: bold;
+    color: brown;
+}
+a:hover{
+    color: yellow;
+}
+a :visited{
+    color: rgb(11, 202, 202);
+}
+a:active{
+    color: black;
+}
+nav{
+    padding: 4px;
+    width: 50px;
+    margin: ;
+}
+ul > li > a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-right: 40px;
+    font-size: 30px;
+}
+#MENU > ul > li > a
+{
+    color: white;
+}
+#MENU > ul
+{
+
+    display: none;
+}
+#MENU:hover > ul{
+    list-style: none;
+    color: rgb(71, 71, 17);
+    display: block;
+}
+
+#par{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#CantoEsquerdo{
+    width: 200px;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+#Teste > #bot{
+    display: none;
+}
+#Teste:hover > #bot{
+    display: block;
+    color: blue;
+    background-color: rgb(226, 214, 43);
+    border-radius: 5px;
+    
+}
+#cabecalho{
+    margin: 0px 0px 3px 0px;
+    max-width: 1750px;    
+    background-color: rgb(42, 42, 53);
+    padding: 4px;
+    box-shadow: none;
+}
+#cabecalho > h1{
+    color: white;
+    box-shadow: none;
+    margin: 0px 0px 0px 500px;
+    width: 300px;
+}
+#SegundaPagina{
+    background-image: linear-gradient(to right, rgb(202, 124, 183), rgb(231, 79, 173),rgb(238, 48, 206));
+}
