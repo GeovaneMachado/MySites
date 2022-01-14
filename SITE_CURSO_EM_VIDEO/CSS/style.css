@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'myFont';
+    src: url('../MEDIAS/fontes/idroid.otf') format('opentype'), url('../MEDIAS/fontes/idroid.otf') format('truetype');
+}
+body{
+    background-color: #6EFF6E;
+    margin: 0px;
+    
+}
+h1{
+    margin: 3px;
+    text-align: left;
+    font-family: myFont;
+    color: rgb(14, 104, 14);
+}
+h2{
+    margin: 2px;
+    text-align: left;
+    font-family: myFont;
+    color: rgb(14, 104, 14);
+    background-image: linear-gradient(to right, rgba(20, 201, 20, 0.493), rgba(152, 218, 152, 0.493), rgb(255, 255, 255));
+}
+h3{
+    background-color: #21FF21;
+    margin: 0px;
+    max-width: 800px;
+    border-radius: 15px 15px 0px 0px;
+    padding: 5px;
+}
+main{
+    background-color: white;
+    max-width: 800px;
+    color: #000;
+    margin: auto;
+    padding: 0px 20px 15px 20px;
+    text-align: justify;
+    text-indent: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.37);
+
+}
+footer{
+    color: #000;
+    background-color: #378037;
+}
+footer >p{
+    margin: auto;
+}
+ul{
+    text-decoration: none;
+}
+#Cabecalho{
+    background-image: linear-gradient(to bottom, #21FF21, #1BCC1B, #118011);
+    margin: 11px 0px px 0px;
+    padding: 0px;
+    max-width: 1750px;
+    text-align: center;
+    color: white;
+    height: 127px;
+}
+#Cabecalho > h1{
+    text-align: center;
+    margin: 0px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#MENU{
+    text-align: left;
+    margin: auto;
+}
+ #MENU > a{
+     text-decoration: none;
+     margin: 0px 0px;
+     padding: 3px 30px;
+     border-radius: 2px;
+     color: white;
+
+ }
+ .opcoes:hover {
+    background-color: #1BCC1B;
+    border-radius: 3px;
+}
+#bugdroid{
+    padding: 0px 250px;
+}
+#extra{
+    background-color: #6EFF6E;
+    border-radius: 0px 0px 15px 15px;
+    text-indent: 20px;
+    padding: 10px;
+}
+.colun-list{
+    margin: 0px;
+    padding: 20px;
+    width: 330px;
+    display: inline-block;
+
+}
+#video{
+    border-style: dashed;
+    margin: 0px;
+    padding: 15px 100px;
+    background-color:#378037;
+}
