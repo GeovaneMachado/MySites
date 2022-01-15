@@ -7,7 +7,8 @@
     margin: 0px;
 }
 body{
-    background-color: #6EFF6E;    
+    background-color: #6EFF6E;
+    min-width: 400px;    
 }
 
 h1{
@@ -27,6 +28,7 @@ h2{
 main{
     background-color: white;
     max-width: 800px;
+    min-width: 300px;
     color: #000;
     margin: auto;
     padding: 0px 20px 15px 20px;
@@ -34,6 +36,9 @@ main{
     text-indent: 40px;
     border-radius: 10px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.37);
+}
+#androids>source{
+    max-width: 100%;
 }
 main strong{
     font-weight: bold;
@@ -82,7 +87,7 @@ footer >p{
     background-image: linear-gradient(to bottom, #21FF21, #1BCC1B, #118011);
     padding: 1px;
     max-width: 1750px;
-    min-width: 400px;
+    min-width: 350px;
     text-align: center;
     color: white;
     max-height: 142px;
@@ -123,18 +128,19 @@ footer >p{
     margin-top: 10px;
 }   
 
-#video{
+div.video{
     margin: 0px -20px 30px -20px;
     padding: 20px;
-    padding-bottom: 44%;
+    padding-bottom: 20px;
     background-color:#378037;
     display: relative;
 }
-#video > iframe{
-    position: absolute;
-    /*max-top: 272%;*/
+div.video > iframe{
+    position: block;
+    top: 5%;
     left: 20%;
-    min-width: 40%;
-    min-height: 63%;
+    width: 90%;
+    height: 400px;
+    margin: 0px;
 
 }
