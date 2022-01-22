@@ -7,9 +7,25 @@
     <title>CAIXAS</title>
     <link rel="shortcut icon" href="../MEDIAS/IMAGES/We4ponx-Dead-Space-3-Dead-Space-3-2.ico" type="image/x-icon">
     <link rel="stylesheet" href="../CSS/style.css">
+    <script type="javascript" src="../JS/brincar.js"></script>
 </head>
 <body id="SegundaPagina">
-    <button><a href="../HTML/index.html">Voltar</a></button>
-    
+    <header id="cabecalho">
+        <h1>Esta é a segunda pagina</h1>
+    </header>
+    <main>
+        <button><a href="../HTML/index.html">Voltar</a></button>
+        <form action="">
+            <fieldset>
+                <label>Escolha uma operação</label>
+                <select name="funcoesAritmeticas" value="funcoesAritmeticas" id="funcoesAritmeticas">
+                    <option value="Soma" onclick="soma(1, 6)">Soma</option>
+                    <option value="diminui" onclick="diminui(5, 9)">diminui</option>
+                    <option value="multiplica" onclick="multiplica()">Multiplica</option>
+                    <option value="dividi" onclick="dividi()">dividi</option>
+                </select>
+            </fieldset>
+        </form>
+    </main>
 </body>
 </html>

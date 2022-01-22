@@ -1,15 +1,27 @@
-function tabuada(){
-    let num = document.getElementById("txtn");
-    let limite = number(document.getElementById("ate"));
-    let tab = document.getElementById("seltab");
-    let n = number(num.value);
-    let lim = number(limite.value);
-    tab.innerHTML = '';
-    for(var i = 0; i<=lim; i++)
-    {
-        let item = document.createElement('option');
-        item.text = '${n} x ${i} = ${n*i}';
-        tab.appendChild(item);
-    }
-
+function soma(a, b){
+    document.write(Number(a+b))
+    return Number(a + b)
 }
+function diminui(a, b){
+    document.write(Number(a-b))
+    return Number(a - b)
+}
+function multiplica(a, b){
+    document.write(Number(a*b))
+    return Number(a * b)
+}
+function dividi(a, b){
+    document.write(Number(a/b))
+    return Number(a/b)
+}
+/*
+var numeros ={
+    'numero1': '7', 
+    'numero2': '5'
+}
+var {'numero1':a, 'numero2': b} = numeros
+
+console.log("Resultado soma = ", soma(a, b) )
+console.log("Resultado subtração = ", diminui(a, b) )
+console.log("Resultado multiplicação = ", multiplica(a, b) )
+console.log("Resultado divisão = ", dividi(a, b) )*/

@@ -37,9 +37,7 @@ main{
     border-radius: 10px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.37);
 }
-#androids>source{
-    max-width: 100%;
-}
+
 main strong{
     font-weight: bold;
     color:  #118011;
@@ -74,10 +72,11 @@ aside ul{
 footer{
     color: #000;
     background-color: #378037;
+    height: 35px;
 }
 
-footer >p{
-    margin: auto;
+footer > p{
+    padding-top: 5px ;
 }
 
 .externo::after{
@@ -142,5 +141,4 @@ div.video > iframe{
     width: 90%;
     height: 400px;
     margin: 0px;
-
 }
