@@ -44,21 +44,6 @@ footer > p{
 
 }
 
-a{
-    text-decoration: none;
-    width: 50px;
-    font-weight: bold;
-    color: brown;
-}
-a:hover{
-    color: yellow;
-}
-a :visited{
-    color: rgb(11, 202, 202);
-}
-a:active{
-    color: black;
-}
 nav{
     padding: 4px;
     width: 50px;
@@ -73,6 +58,8 @@ ul > li > a{
 #MENU > ul > li > a
 {
     color: white;
+    margin: 0px;
+    padding-left: 1px;
 }
 #MENU > ul
 {
@@ -118,6 +105,4 @@ ul > li > a{
     margin: 0px;
     max-width: 1720px;
 }
-#SegundaPagina{
-    background-image: linear-gradient(to right, rgb(202, 124, 183), rgb(231, 79, 173),rgb(238, 48, 206));
-}
+
